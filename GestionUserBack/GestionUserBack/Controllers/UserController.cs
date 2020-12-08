@@ -60,9 +60,10 @@ namespace GestionUserBack.Controllers
                 {
                     User user = new User()
                     {
-                        Name = userReq.Name,
+                        Nom = userReq.Nom,
+                        Contact = userReq.Contact,
                         Email = userReq.Email,
-                        DateCreate = DateTime.Now,
+                        DateCreate = DateTime.Now
                     };
                     this._userRepository.SaveOrUpdate(user);
                     return Request.CreateResponse(HttpStatusCode.OK, "Utilisateur enregistré avec succès.");
@@ -106,7 +107,8 @@ namespace GestionUserBack.Controllers
                         return Request.CreateResponse(HttpStatusCode.BadRequest, "user introuvable.");
                     }
                     user.Email = userReq.Email;
-                    user.Name = userReq.Name;
+                    user.Nom = userReq.Nom;
+                    user.Contact = userReq.Contact;
                     user.DateModify = DateTime.Now;
                     this._userRepository.SaveOrUpdate(user);
                     return Request.CreateResponse(HttpStatusCode.OK, "modification enregistrée avec succès.");

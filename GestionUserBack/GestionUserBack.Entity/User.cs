@@ -9,8 +9,8 @@ namespace GestionUserBack.Entity
 {
     public class User : Entity
     {
-        [JsonProperty("name")]
-        public virtual string Name { get; set; }
+        [JsonProperty("nom")]
+        public virtual string Nom { get; set; }
 
         [JsonProperty("dateCreate")]
         public virtual DateTime DateCreate { get; set; }
@@ -20,6 +20,9 @@ namespace GestionUserBack.Entity
 
         [JsonProperty("email")]
         public virtual string Email { get; set; }
+
+        [JsonProperty("contact")]
+        public virtual int Contact { get; set; }
 
     }
 }

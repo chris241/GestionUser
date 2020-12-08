@@ -11,16 +11,12 @@ namespace GestionUserBack.Entity.Services
     {
         [JsonProperty("id")]
         public virtual Guid Id { get; set; }
-        [JsonProperty("name")]
-        public virtual string Name { get; set; }
-
-        [JsonProperty("dateCreate")]
-        public virtual DateTime DateCreate { get; set; }
-
-        [JsonProperty("dateModify")]
-        public virtual DateTime DateModify { get; set; }
+        [JsonProperty("nom")]
+        public virtual string Nom { get; set; }
 
         [JsonProperty("email")]
         public virtual string Email { get; set; }
+        [JsonProperty("contact")]
+        public virtual int Contact { get; set; }
     }
 }

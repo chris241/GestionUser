@@ -22,24 +22,24 @@ namespace GestionUserBack.Utility.Fixture
                         session.Get<User>(Guid.Empty);
                         session.SaveOrUpdate(new User()
                         {
-                            Name = "Superman",
+                            Nom = "Superman",
+                            Contact=0343787630,
                             Email = "Superman@gmail.com",
                             DateCreate = DateTime.Now,
-                            DateModify = DateTime.Now,
                         });
                         session.SaveOrUpdate(new User()
                         {
-                            Name = "Batman",
+                            Nom = "Batman",
                             Email = "Batman@gmail.com",
-                            DateCreate = DateTime.Now,
-                            DateModify = DateTime.Now
+                            Contact = 0343787631,
+                            DateCreate = DateTime.Now
                         });
                         session.SaveOrUpdate(new User()
                         {
-                            Name = "IronMan",
+                            Nom = "IronMan",
+                            Contact = 0343787632,
                             Email = "IronMan@gmail.com",
-                            DateCreate = DateTime.Now,
-                            DateModify = DateTime.Now
+                            DateCreate = DateTime.Now
                         });
                         transaction.Commit();
                     }
