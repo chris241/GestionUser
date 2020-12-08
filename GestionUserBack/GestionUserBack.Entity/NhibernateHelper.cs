@@ -22,11 +22,11 @@ namespace GestionUserBack.Entity
                 var cfg = MySQLConfiguration.Standard
                     .ConnectionString(c =>
                         c.Is(
-                        "Server=localhost; Port=3306; Database=gestion_user; Uid=root; Pwd=;default command timeout=20000"));
+                        "Server=localhost; Port=3306; Database=utilisateur; Uid=root; Pwd=;default command timeout=20000"));
                 SessionFactory = Fluently.Configure()
                        .Database(cfg)
                              .Mappings(m =>
-                               m.FluentMappings.AddFromAssemblyOf<User>()
+                               m.FluentMappings.AddFromAssemblyOf<Entity>()
                              )
                .ExposeConfiguration(BuildSchema)
                 .ExposeConfiguration(x =>

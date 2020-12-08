@@ -153,6 +153,9 @@ C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\roslyn\v
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\roslyn\VBCSCompiler.exe
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Antlr3.Runtime.dll
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\GestionUserBack.Business.dll
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\GestionUserBack.Entity.dll
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\GestionUserBack.Utility.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Microsoft.Owin.Cors.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Microsoft.Owin.dll
@@ -175,6 +178,14 @@ C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\System.W
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Unity.Abstractions.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Unity.Container.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\WebGrease.dll
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\NHibernate.dll
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\FluentNHibernate.dll
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Remotion.Linq.dll
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Remotion.Linq.EagerFetching.dll
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Iesi.Collections.dll
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\GestionUserBack.Business.pdb
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\GestionUserBack.Entity.pdb
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\GestionUserBack.Utility.pdb
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Microsoft.Owin.xml
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Microsoft.Owin.Cors.xml
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Microsoft.Owin.Host.SystemWeb.xml
@@ -194,6 +205,11 @@ C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Unity.Ab
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Unity.Container.pdb
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Antlr3.Runtime.pdb
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\NHibernate.xml
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\FluentNHibernate.xml
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Remotion.Linq.xml
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Remotion.Linq.EagerFetching.xml
+C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\Iesi.Collections.xml
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\fr\System.Net.Http.Formatting.resources.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\fr\System.Web.Helpers.resources.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack\bin\fr\System.Web.Http.resources.dll

@@ -63,10 +63,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Fixture\DataFixtureHelper.cs" />
+    <Compile Include="Interfaces\EntityRepository.cs" />
+    <Compile Include="Interfaces\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GestionUserBack.Entity\GestionUserBack.Entity.csproj">
+      <Project>{2808F6C9-E0DD-4F63-AF0A-CD8F836BECB4}</Project>
+      <Name>GestionUserBack.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
