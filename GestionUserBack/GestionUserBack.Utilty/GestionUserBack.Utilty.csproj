@@ -66,10 +66,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Interfaces\EntityRepository.cs" />
+    <Compile Include="Interfaces\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GestionUserBack.Entity\GestionUserBack.Entity.csproj">
+      <Project>{BFDF9FFA-81F2-47B0-B785-6B18FAE57A1A}</Project>
+      <Name>GestionUserBack.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,7 +1,11 @@
-﻿using System;
+﻿using GestionUserBack.Business.Repository;
+using GestionUserBack.Entity;
+using GestionUserBack.Utilty.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using Unity;
 
 namespace GestionUserBack
 {
@@ -10,7 +14,8 @@ namespace GestionUserBack
         public static void Register(HttpConfiguration config)
         {
             // Configuration et services API Web
-
+            UnityContainer unityContainer = new UnityContainer();
+            SetDependencies(unityContainer);
             // Itinéraires de l'API Web
             config.MapHttpAttributeRoutes();
 
@@ -20,5 +25,11 @@ namespace GestionUserBack
                 defaults: new { id = RouteParameter.Optional }
             );
         }
+        private static void SetDependencies(UnityContainer container)
+        {
+
+            container.RegisterType<EntityRepository<User>, UserRepository>();
+        }
     }
 }
+
