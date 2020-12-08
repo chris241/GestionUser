@@ -1,5 +1,10 @@
-GestionUserBack:
-Technologie utilisée Asp.net MVC5
-
-GestionUserFront:
-Technologie utilisée Angular
+GestionUsers:
+-faire un git clone https://github.com/chris241/GestionUser.git
+	1) Dans le GestionUserBack:
+	-Technologie utilisée Asp.net MVC5
+	-lancer dans visual studio 2019
+	
+	2) Dans le GestionUserFront:
+	-Technologie utilisée Angular
+	- installer les modules: "npm install"
+	- lancer l'application avec la commande: "ng serve"
