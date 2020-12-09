@@ -84,12 +84,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DataTable.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="Mappings\EntityMap.cs" />
     <Compile Include="Mappings\UserMap.cs" />
     <Compile Include="NhibernateHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\CreateUserReq.cs" />
+    <Compile Include="Services\GetDataTableRequest.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>

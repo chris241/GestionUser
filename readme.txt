@@ -8,5 +8,5 @@ GestionUsers:
 	-Créer une base de données avec le nom:"utilisateur"
 	3) Dans le GestionUserFront:
 	-Technologie utilisée Angular
-	- installer les modules: "npm install"
+	- décompresser le dossier "node_module".
 	- lancer l'application avec la commande: "ng serve"

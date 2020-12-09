@@ -29,7 +29,7 @@ namespace GestionUserBack
         }
         private static void SetDependencies(UnityContainer container)
         {
-
+            container.RegisterType<DataTableRepository<User>, DataTableRepository<User>>();
             container.RegisterType<EntityRepository<User>, UserRepository>();
         }
     }

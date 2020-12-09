@@ -17,6 +17,6 @@ namespace GestionUserBack.Entity.Services
         [JsonProperty("email")]
         public virtual string Email { get; set; }
         [JsonProperty("contact")]
-        public virtual int Contact { get; set; }
+        public virtual string Contact { get; set; }
     }
 }

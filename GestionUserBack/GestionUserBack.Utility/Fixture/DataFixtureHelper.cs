@@ -23,7 +23,7 @@ namespace GestionUserBack.Utility.Fixture
                         session.SaveOrUpdate(new User()
                         {
                             Nom = "Superman",
-                            Contact=0343787630,
+                            Contact="034 37 876 30",
                             Email = "Superman@gmail.com",
                             DateCreate = DateTime.Now,
                         });
@@ -31,13 +31,13 @@ namespace GestionUserBack.Utility.Fixture
                         {
                             Nom = "Batman",
                             Email = "Batman@gmail.com",
-                            Contact = 0343787631,
+                            Contact = "034 37 876 31",
                             DateCreate = DateTime.Now
                         });
                         session.SaveOrUpdate(new User()
                         {
                             Nom = "IronMan",
-                            Contact = 0343787632,
+                            Contact = "034 37 876 32",
                             Email = "IronMan@gmail.com",
                             DateCreate = DateTime.Now
                         });

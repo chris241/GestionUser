@@ -64,7 +64,9 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Fixture\DataFixtureHelper.cs" />
+    <Compile Include="Interfaces\DynamicExpression.cs" />
     <Compile Include="Interfaces\EntityRepository.cs" />
+    <Compile Include="Interfaces\Helper.cs" />
     <Compile Include="Interfaces\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

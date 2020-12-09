@@ -13,8 +13,8 @@ namespace GestionUserBack.Entity.Mappings
         {
             Abstract();
             Map(x => x.Nom).Not.Nullable();
-            Map(x => x.DateCreate);
-            Map(x => x.Contact);
+            Map(x => x.DateCreate).Not.Nullable();
+            Map(x => x.Contact).Not.Nullable();
             Map(x => x.DateModify).Nullable();
             Map(x => x.Email).Unique().Not.Nullable();
         }

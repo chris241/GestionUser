@@ -3,7 +3,6 @@ C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack.Business\bin
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack.Business\bin\Debug\GestionUserBack.Entity.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack.Business\bin\Debug\GestionUserBack.Utility.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack.Business\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack.Business\bin\Debug\NHibernate.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack.Business\bin\Debug\FluentNHibernate.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack.Business\bin\Debug\Remotion.Linq.dll
 C:\Users\Chris\Desktop\GestionUsers\GestionUserBack\GestionUserBack.Business\bin\Debug\Remotion.Linq.EagerFetching.dll

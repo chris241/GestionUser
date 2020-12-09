@@ -1,4 +1,5 @@
-﻿using GestionUserBack.Entity;
+﻿using GestionUserBack.Business.Repository;
+using GestionUserBack.Entity;
 using GestionUserBack.Entity.Services;
 using GestionUserBack.Utility.Interfaces;
 using System;
@@ -15,20 +16,23 @@ namespace GestionUserBack.Controllers
     public class UserController : ApiController
     {
         private EntityRepository<User> _userRepository = null;
-        public UserController(EntityRepository<User> UserRepository)
+        private DataTableRepository<User> _userTableRepository = null;
+        public UserController(EntityRepository<User> UserRepository,
+            DataTableRepository<User> UserTableRepository)
             {
                 this._userRepository = UserRepository;
+                this._userTableRepository = UserTableRepository;
             }
 
-            [HttpGet]
+            [HttpPost]
             [Route("all")]
-            public async Task<HttpResponseMessage> GetAllUsers()
+            public  HttpResponseMessage GetAllUsers(GetDataTableRequest request)
             {
                 try
                 {
-                    List<User> users = await this._userRepository.FindByAll();
-                    return Request.CreateResponse(HttpStatusCode.OK, users);
-                }
+                DataTable<User> user = this._userTableRepository.GetAll(request);
+                return Request.CreateResponse(HttpStatusCode.OK, user);
+            }
                 catch (Exception e)
                 {
                     return Request.CreateResponse(HttpStatusCode.InternalServerError, e);
@@ -58,7 +62,19 @@ namespace GestionUserBack.Controllers
             {
                 try
                 {
-                    User user = new User()
+                if (userReq.Nom ==null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "ajouter un nom.");
+                }
+                if (userReq.Email== null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "ajouter un email.");
+                }
+                if (userReq.Contact==null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "ajouter un contact.");
+                }
+                User user = new User()
                     {
                         Nom = userReq.Nom,
                         Contact = userReq.Contact,
