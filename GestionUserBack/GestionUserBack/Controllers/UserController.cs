@@ -62,19 +62,11 @@ namespace GestionUserBack.Controllers
             {
                 try
                 {
-                if (userReq.Nom ==null)
-                {
-                    return Request.CreateResponse(HttpStatusCode.BadRequest, "ajouter un nom.");
-                }
-                if (userReq.Email== null)
-                {
-                    return Request.CreateResponse(HttpStatusCode.BadRequest, "ajouter un email.");
-                }
-                if (userReq.Contact==null)
-                {
-                    return Request.CreateResponse(HttpStatusCode.BadRequest, "ajouter un contact.");
-                }
-                User user = new User()
+                    if (string.IsNullOrEmpty(userReq.Nom)|| string.IsNullOrEmpty(userReq.Email)|| string.IsNullOrEmpty(userReq.Contact))
+                    {
+                        return Request.CreateResponse(HttpStatusCode.BadRequest, "vide.");
+                    }
+                    User user = new User()
                     {
                         Nom = userReq.Nom,
                         Contact = userReq.Contact,
